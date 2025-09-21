@@ -1,0 +1,4 @@
+snapshot_date,sku,available_qty
+2026-06-02,SKU-A,10
+2026-06-02,SKU-B,4
+2026-06-02,SKU-C,-1

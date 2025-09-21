@@ -1,0 +1,5 @@
+date,line_id,sku,planned_qty,produced_qty
+2026-06-01,LINE-1,SKU-A,20,19
+2026-06-01,LINE-2,SKU-B,14,14
+2026-06-02,LINE-1,SKU-A,22,21
+2026-06-02,LINE-2,SKU-C,12,11
