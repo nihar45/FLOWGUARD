@@ -1,0 +1,6 @@
+install_id,order_id,sku,qty,status
+INST-2001,SO-1001,SKU-A,6,complete
+INST-2002,SO-1002,SKU-B,2,complete
+INST-2003,SO-1003,SKU-X,2,complete
+INST-2004,SO-9999,SKU-A,1,complete
+INST-2005,SO-1004,SKU-A,7,complete

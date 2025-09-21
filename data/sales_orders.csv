@@ -1,0 +1,6 @@
+order_id,order_date,sku,qty,status
+SO-1001,2026-05-28,SKU-A,6,approved
+SO-1002,2026-05-29,SKU-B,3,approved
+SO-1002,2026-05-29,SKU-B,3,approved
+SO-1003,2026-05-30,SKU-C,3,approved
+SO-1004,2026-05-31,SKU-A,4,approved

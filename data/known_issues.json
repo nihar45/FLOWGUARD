@@ -1,0 +1,8 @@
+[
+  "duplicate-order:SO-1002",
+  "invalid-quantity:inventory:2",
+  "orphan-install:INST-2004",
+  "sku-mismatch:INST-2003",
+  "install-over-order:SKU-A:INST-2005",
+  "inventory-reconciliation:SKU-A"
+]
