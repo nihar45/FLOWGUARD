@@ -1,0 +1,30 @@
+services:
+  api:
+    build: .
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000
+    ports:
+      - "8000:8000"
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      FLOWGUARD_DB_PATH: /data/flowguard.db
+      FLOWGUARD_DATA_DIR: /workspace/data
+    volumes:
+      - flowguard_data:/data
+
+  dashboard:
+    build: .
+    command: streamlit run dashboard/app.py --server.address 0.0.0.0 --server.port 8501
+    ports:
+      - "8501:8501"
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      FLOWGUARD_API_URL: http://api:8000
+    depends_on:
+      - api
+
+volumes:
+  flowguard_data:
