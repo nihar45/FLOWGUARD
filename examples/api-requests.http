@@ -1,0 +1,11 @@
+### Health
+GET http://localhost:8000/health
+
+### Start run
+POST http://localhost:8000/runs
+
+### List cases
+GET http://localhost:8000/issues?limit=20
+
+### Metrics
+GET http://localhost:8000/metrics/summary
