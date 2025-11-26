@@ -1,0 +1,15 @@
+# Documentation index
+
+- [Architecture](architecture.md)
+- [Developer setup](development.md)
+- [API](api.md)
+- [Configuration](configuration.md)
+- [Security](security.md)
+- [Recovery lifecycle](recovery-lifecycle.md)
+- [Data contracts](datasets.md)
+- [Metrics](metrics.md)
+- [Power BI](power-bi.md)
+- [Operations](operations.md)
+- [Deployment checklist](deployment-checklist.md)
+- [Dependencies](dependencies.md)
+- [Architecture decisions](decisions/0001-local-sqlite.md)
