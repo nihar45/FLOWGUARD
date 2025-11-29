@@ -1,0 +1,3 @@
+# API plus the optional Streamlit dashboard.
+-r requirements-api.txt
+streamlit>=1.40,<2

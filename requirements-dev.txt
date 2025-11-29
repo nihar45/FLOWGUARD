@@ -1,0 +1,4 @@
+# Local development and API tests, including the optional dashboard.
+-r requirements-dashboard.txt
+pytest>=8,<9
+httpx>=0.27,<1
